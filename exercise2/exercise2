@@ -1,0 +1,9 @@
+#! /bin/bash
+
+cd
+mkdir created
+cd created
+touch subDir
+cd 
+rm -rf
+
