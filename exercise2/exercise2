@@ -1,5 +1,6 @@
 #! /bin/bash
 
+# A bash script that creates a file inside a folder, then delete the folder.
 cd
 mkdir created
 cd created
