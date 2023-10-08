@@ -8,3 +8,4 @@ touch subDir
 cd 
 rm -rf
 
+exit
