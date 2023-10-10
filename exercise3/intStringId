@@ -1,0 +1,17 @@
+#!/bin/bash
+
+#  a script that determines if an argument passed to it is an integer or a string. The script will return TRUE (0) if passed an integer, and FALSE (1) if passed a string.
+
+echo "please enter your value..."
+
+read data
+if [[ "$data" =~ ^[0-9] ]];
+then
+	echo 0
+else
+	echo 1
+
+fi
+
+exit
+
