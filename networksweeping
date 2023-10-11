@@ -1,0 +1,9 @@
+#!/bin/bash
+
+
+echo "please enter your subnet:"
+read subnet
+
+for ipAddress in $(seq 1 254); do
+	ping -c 1 $subnet.$ipAddress
+done
