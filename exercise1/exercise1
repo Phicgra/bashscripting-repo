@@ -1,5 +1,5 @@
 #! /bin/bash
-
+# A simple shutdown script 
 echo "hello world, its a great day."
 
 sudo shutdown -h now
