@@ -2,3 +2,7 @@
 
 echo "hello world, its a great day."
 
+sudo shutdown -h now
+
+
+exit
