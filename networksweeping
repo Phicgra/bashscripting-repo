@@ -6,3 +6,6 @@ read subnet
 for ipAddress in $(seq 100 254); do
 	ping -c 1 $subnet.$ipAddress
 done
+
+
+exit
